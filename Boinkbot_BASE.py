@@ -34,9 +34,8 @@ print("Trigger key = T")
 print(pixel1, pixel2)       #Don't change the pixels, it's made to go around your crosshair instead of always seeing it.
 
 while True:
-    if keyboard.is_pressed('t'):
+    if keyboard.is_pressed('t'):        #Change the ('t') to any other letter e.g: ('r'). This will change the start key.
         if pyautogui.pixel(pixel1, pixel2) != (111, 111, 111):      #For anyone trying to use this, the (111,111,111) is basically jsut (r, g, b).
-            mouse.position = (pixel1, pixel2)
             mouse.click(Button.left, 1)
             pixel2 = random.choice([530, 550, 535, 545])
             pixel1 = random.choice([950, 970, 955, 965])
