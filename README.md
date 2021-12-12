@@ -2,4 +2,4 @@
 Auto fire for whatever game I decide on :)
 
 
-Steal this if ur gay hehehehehe ;)
+Steal this and u will never get vbucks again EVER hehehehehe ;)
